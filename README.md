@@ -15,9 +15,15 @@ OptionsPro is an advanced options strategy calculator and IV surface visualizer 
 ## Setup
 
 1. Clone the repo
-2. Open `OptionsPro.xcodeproj` in Xcode
-3. Add your Polygon.io API key in `PolygonWebSocketClient.swift`
-4. Run on device or simulator (requires iOS 16+)
+2. Open the project in Xcode (minimum iOS 16)
+3. Add your Polygon.io API key in `Secrets.swift`
+4. Build & run on device or simulator
+
+## Notes
+
+- The WebSocket client connects to Polygon.io for live IV data
+- Some payoff logic and binomial tree pricing are placeholders and can be extended
+- Advanced features like Metal rendering and onboarding screens are planned
 
 ## License
 
